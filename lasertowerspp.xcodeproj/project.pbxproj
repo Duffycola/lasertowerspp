@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CACE4E219D6FF130044F29C /* EnemyGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4D819D6FF130044F29C /* EnemyGenerator.cpp */; };
+		5CACE4E319D6FF130044F29C /* EnemyGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4D819D6FF130044F29C /* EnemyGenerator.cpp */; };
+		5CACE4E419D6FF130044F29C /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4DA19D6FF130044F29C /* GameController.cpp */; };
+		5CACE4E519D6FF130044F29C /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4DA19D6FF130044F29C /* GameController.cpp */; };
+		5CACE4E619D6FF130044F29C /* GameControllerTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4DC19D6FF130044F29C /* GameControllerTemplate.cpp */; };
+		5CACE4E719D6FF130044F29C /* GameControllerTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4DC19D6FF130044F29C /* GameControllerTemplate.cpp */; };
+		5CACE4E819D6FF130044F29C /* SpriteFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4DF19D6FF130044F29C /* SpriteFactory.cpp */; };
+		5CACE4E919D6FF130044F29C /* SpriteFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4DF19D6FF130044F29C /* SpriteFactory.cpp */; };
+		5CACE4F119D6FF520044F29C /* LevelModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4EE19D6FF520044F29C /* LevelModel.cpp */; };
+		5CACE4F219D6FF520044F29C /* LevelModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4EE19D6FF520044F29C /* LevelModel.cpp */; };
+		5CACE4FD19D6FF770044F29C /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F319D6FF770044F29C /* Enemy.cpp */; };
+		5CACE4FE19D6FF770044F29C /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F319D6FF770044F29C /* Enemy.cpp */; };
+		5CACE4FF19D6FF770044F29C /* GameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F519D6FF770044F29C /* GameView.cpp */; };
+		5CACE50019D6FF770044F29C /* GameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F519D6FF770044F29C /* GameView.cpp */; };
+		5CACE50119D6FF770044F29C /* LevelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F719D6FF770044F29C /* LevelView.cpp */; };
+		5CACE50219D6FF770044F29C /* LevelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F719D6FF770044F29C /* LevelView.cpp */; };
+		5CACE50319D6FF770044F29C /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F919D6FF770044F29C /* Sprite.cpp */; };
+		5CACE50419D6FF770044F29C /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4F919D6FF770044F29C /* Sprite.cpp */; };
+		5CACE50519D6FF770044F29C /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4FB19D6FF770044F29C /* Tower.cpp */; };
+		5CACE50619D6FF770044F29C /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE4FB19D6FF770044F29C /* Tower.cpp */; };
+		5CACE51A19D6FFF90044F29C /* gl_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE51319D6FFF90044F29C /* gl_util.cpp */; };
+		5CACE51B19D6FFF90044F29C /* gl_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE51319D6FFF90044F29C /* gl_util.cpp */; };
+		5CACE51C19D6FFF90044F29C /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE51519D6FFF90044F29C /* Input.cpp */; };
+		5CACE51D19D6FFF90044F29C /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE51519D6FFF90044F29C /* Input.cpp */; };
+		5CACE51E19D6FFF90044F29C /* Texture2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE51819D6FFF90044F29C /* Texture2D.cpp */; };
+		5CACE51F19D6FFF90044F29C /* Texture2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE51819D6FFF90044F29C /* Texture2D.cpp */; };
+		5CACE52219D700170044F29C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE52119D700170044F29C /* main.cpp */; };
+		5CACE52319D700170044F29C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE52119D700170044F29C /* main.cpp */; };
+		5CACE52719D700BE0044F29C /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE52519D700BE0044F29C /* util.cpp */; };
+		5CACE52819D700BE0044F29C /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACE52519D700BE0044F29C /* util.cpp */; };
+		5CF713D219D4DC4000F2403B /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CF713CE19D4DC4000F2403B /* test.cpp */; };
+		5CF7141019D4DDE100F2403B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF7140F19D4DDE100F2403B /* OpenGL.framework */; };
+		5CF7141219D4DDE400F2403B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF7141119D4DDE400F2403B /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C0DA5A11572ED33009C6699 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5CD742B01561803C00B22914 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C0DA5A61572ED33009C6699 /* lasertowerspp copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lasertowerspp copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CACE4D619D6FEE60044F29C /* InterfaceDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterfaceDrawable.h; path = src/lasertowerspp/InterfaceDrawable.h; sourceTree = SOURCE_ROOT; };
+		5CACE4D719D6FF130044F29C /* AttackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttackController.h; path = src/lasertowerspp/AttackController.h; sourceTree = SOURCE_ROOT; };
+		5CACE4D819D6FF130044F29C /* EnemyGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EnemyGenerator.cpp; path = src/lasertowerspp/EnemyGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4D919D6FF130044F29C /* EnemyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnemyGenerator.h; path = src/lasertowerspp/EnemyGenerator.h; sourceTree = SOURCE_ROOT; };
+		5CACE4DA19D6FF130044F29C /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameController.cpp; path = src/lasertowerspp/GameController.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4DB19D6FF130044F29C /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameController.h; path = src/lasertowerspp/GameController.h; sourceTree = SOURCE_ROOT; };
+		5CACE4DC19D6FF130044F29C /* GameControllerTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameControllerTemplate.cpp; path = src/lasertowerspp/GameControllerTemplate.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4DD19D6FF130044F29C /* GameControllerTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameControllerTemplate.h; path = src/lasertowerspp/GameControllerTemplate.h; sourceTree = SOURCE_ROOT; };
+		5CACE4DE19D6FF130044F29C /* LevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelController.h; path = src/lasertowerspp/LevelController.h; sourceTree = SOURCE_ROOT; };
+		5CACE4DF19D6FF130044F29C /* SpriteFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpriteFactory.cpp; path = src/lasertowerspp/SpriteFactory.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4E019D6FF130044F29C /* SpriteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpriteFactory.h; path = src/lasertowerspp/SpriteFactory.h; sourceTree = SOURCE_ROOT; };
+		5CACE4E119D6FF130044F29C /* SpriteFactoryAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpriteFactoryAbstract.h; path = src/lasertowerspp/SpriteFactoryAbstract.h; sourceTree = SOURCE_ROOT; };
+		5CACE4EA19D6FF520044F29C /* Attack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attack.h; path = src/lasertowerspp/Attack.h; sourceTree = SOURCE_ROOT; };
+		5CACE4EB19D6FF520044F29C /* CostValueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CostValueModel.h; path = src/lasertowerspp/CostValueModel.h; sourceTree = SOURCE_ROOT; };
+		5CACE4EC19D6FF520044F29C /* GameFigureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameFigureModel.h; path = src/lasertowerspp/GameFigureModel.h; sourceTree = SOURCE_ROOT; };
+		5CACE4ED19D6FF520044F29C /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameModel.h; path = src/lasertowerspp/GameModel.h; sourceTree = SOURCE_ROOT; };
+		5CACE4EE19D6FF520044F29C /* LevelModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LevelModel.cpp; path = src/lasertowerspp/LevelModel.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4EF19D6FF520044F29C /* LevelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelModel.h; path = src/lasertowerspp/LevelModel.h; sourceTree = SOURCE_ROOT; };
+		5CACE4F019D6FF520044F29C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = src/lasertowerspp/Player.h; sourceTree = SOURCE_ROOT; };
+		5CACE4F319D6FF770044F29C /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = src/lasertowerspp/Enemy.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4F419D6FF770044F29C /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = src/lasertowerspp/Enemy.h; sourceTree = SOURCE_ROOT; };
+		5CACE4F519D6FF770044F29C /* GameView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameView.cpp; path = src/lasertowerspp/GameView.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4F619D6FF770044F29C /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameView.h; path = src/lasertowerspp/GameView.h; sourceTree = SOURCE_ROOT; };
+		5CACE4F719D6FF770044F29C /* LevelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LevelView.cpp; path = src/lasertowerspp/LevelView.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4F819D6FF770044F29C /* LevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelView.h; path = src/lasertowerspp/LevelView.h; sourceTree = SOURCE_ROOT; };
+		5CACE4F919D6FF770044F29C /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sprite.cpp; path = src/lasertowerspp/Sprite.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4FA19D6FF770044F29C /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sprite.h; path = src/lasertowerspp/Sprite.h; sourceTree = SOURCE_ROOT; };
+		5CACE4FB19D6FF770044F29C /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tower.cpp; path = src/lasertowerspp/Tower.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE4FC19D6FF770044F29C /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = src/lasertowerspp/Tower.h; sourceTree = SOURCE_ROOT; };
+		5CACE51319D6FFF90044F29C /* gl_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gl_util.cpp; path = src/opengl/gl_util.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE51419D6FFF90044F29C /* gl_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gl_util.h; path = src/opengl/gl_util.h; sourceTree = SOURCE_ROOT; };
+		5CACE51519D6FFF90044F29C /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Input.cpp; path = src/opengl/Input.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE51619D6FFF90044F29C /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Input.h; path = src/opengl/Input.h; sourceTree = SOURCE_ROOT; };
+		5CACE51719D6FFF90044F29C /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = System.h; path = src/opengl/System.h; sourceTree = SOURCE_ROOT; };
+		5CACE51819D6FFF90044F29C /* Texture2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Texture2D.cpp; path = src/opengl/Texture2D.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE51919D6FFF90044F29C /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture2D.h; path = src/opengl/Texture2D.h; sourceTree = SOURCE_ROOT; };
+		5CACE52019D700170044F29C /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globals.h; path = src/globals.h; sourceTree = SOURCE_ROOT; };
+		5CACE52119D700170044F29C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE52419D700BE0044F29C /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = src/lasertowerspp/NotificationCenter.h; sourceTree = SOURCE_ROOT; };
+		5CACE52519D700BE0044F29C /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = src/lasertowerspp/util.cpp; sourceTree = SOURCE_ROOT; };
+		5CACE52619D700BE0044F29C /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = src/lasertowerspp/util.h; sourceTree = SOURCE_ROOT; };
+		5CD742B21561803C00B22914 /* lasertowerspp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lasertowerspp; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF713CE19D4DC4000F2403B /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		5CF713CF19D4DC4000F2403B /* UnitTestGameLose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTestGameLose.h; sourceTree = "<group>"; };
+		5CF713D019D4DC4000F2403B /* UnitTestGameWin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTestGameWin.h; sourceTree = "<group>"; };
+		5CF713D119D4DC4000F2403B /* UnitTestTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTestTemplate.h; sourceTree = "<group>"; };
+		5CF7140F19D4DDE100F2403B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5CF7141119D4DDE400F2403B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C0DA59E1572ED33009C6699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD742AF1561803C00B22914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7141219D4DDE400F2403B /* GLUT.framework in Frameworks */,
+				5CF7141019D4DDE100F2403B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD742A71561803C00B22914 = {
+			isa = PBXGroup;
+			children = (
+				5CF7141119D4DDE400F2403B /* GLUT.framework */,
+				5CF7140F19D4DDE100F2403B /* OpenGL.framework */,
+				5CD742B51561803C00B22914 /* lasertowerspp */,
+				5CF713CC19D4DC4000F2403B /* Test */,
+				5CD742B31561803C00B22914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD742B31561803C00B22914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD742B21561803C00B22914 /* lasertowerspp */,
+				5C0DA5A61572ED33009C6699 /* lasertowerspp copy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD742B51561803C00B22914 /* lasertowerspp */ = {
+			isa = PBXGroup;
+			children = (
+				5CF713D319D4DC5B00F2403B /* Interfaces */,
+				5CF713D619D4DC6600F2403B /* Controllers */,
+				5CF713E619D4DC7000F2403B /* Models */,
+				5CF713F119D4DCA300F2403B /* Views */,
+				5CF7140019D4DCB100F2403B /* OpenGL */,
+				5CACE52019D700170044F29C /* globals.h */,
+				5CACE52119D700170044F29C /* main.cpp */,
+				5CACE52419D700BE0044F29C /* NotificationCenter.h */,
+				5CACE52519D700BE0044F29C /* util.cpp */,
+				5CACE52619D700BE0044F29C /* util.h */,
+			);
+			path = lasertowerspp;
+			sourceTree = "<group>";
+		};
+		5CF713CC19D4DC4000F2403B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5CF713CE19D4DC4000F2403B /* test.cpp */,
+				5CF713CF19D4DC4000F2403B /* UnitTestGameLose.h */,
+				5CF713D019D4DC4000F2403B /* UnitTestGameWin.h */,
+				5CF713D119D4DC4000F2403B /* UnitTestTemplate.h */,
+			);
+			path = Test;
+			sourceTree = SOURCE_ROOT;
+		};
+		5CF713D319D4DC5B00F2403B /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5CACE4D619D6FEE60044F29C /* InterfaceDrawable.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		5CF713D619D4DC6600F2403B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CACE4D719D6FF130044F29C /* AttackController.h */,
+				5CACE4D819D6FF130044F29C /* EnemyGenerator.cpp */,
+				5CACE4D919D6FF130044F29C /* EnemyGenerator.h */,
+				5CACE4DA19D6FF130044F29C /* GameController.cpp */,
+				5CACE4DB19D6FF130044F29C /* GameController.h */,
+				5CACE4DC19D6FF130044F29C /* GameControllerTemplate.cpp */,
+				5CACE4DD19D6FF130044F29C /* GameControllerTemplate.h */,
+				5CACE4DE19D6FF130044F29C /* LevelController.h */,
+				5CACE4DF19D6FF130044F29C /* SpriteFactory.cpp */,
+				5CACE4E019D6FF130044F29C /* SpriteFactory.h */,
+				5CACE4E119D6FF130044F29C /* SpriteFactoryAbstract.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5CF713E619D4DC7000F2403B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CACE4EA19D6FF520044F29C /* Attack.h */,
+				5CACE4EB19D6FF520044F29C /* CostValueModel.h */,
+				5CACE4EC19D6FF520044F29C /* GameFigureModel.h */,
+				5CACE4ED19D6FF520044F29C /* GameModel.h */,
+				5CACE4EE19D6FF520044F29C /* LevelModel.cpp */,
+				5CACE4EF19D6FF520044F29C /* LevelModel.h */,
+				5CACE4F019D6FF520044F29C /* Player.h */,
+			);
+			name = Models;
+			path = lasertowerspp/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		5CF713F119D4DCA300F2403B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CACE4F319D6FF770044F29C /* Enemy.cpp */,
+				5CACE4F419D6FF770044F29C /* Enemy.h */,
+				5CACE4F519D6FF770044F29C /* GameView.cpp */,
+				5CACE4F619D6FF770044F29C /* GameView.h */,
+				5CACE4F719D6FF770044F29C /* LevelView.cpp */,
+				5CACE4F819D6FF770044F29C /* LevelView.h */,
+				5CACE4F919D6FF770044F29C /* Sprite.cpp */,
+				5CACE4FA19D6FF770044F29C /* Sprite.h */,
+				5CACE4FB19D6FF770044F29C /* Tower.cpp */,
+				5CACE4FC19D6FF770044F29C /* Tower.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CF7140019D4DCB100F2403B /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				5CACE51319D6FFF90044F29C /* gl_util.cpp */,
+				5CACE51419D6FFF90044F29C /* gl_util.h */,
+				5CACE51519D6FFF90044F29C /* Input.cpp */,
+				5CACE51619D6FFF90044F29C /* Input.h */,
+				5CACE51719D6FFF90044F29C /* System.h */,
+				5CACE51819D6FFF90044F29C /* Texture2D.cpp */,
+				5CACE51919D6FFF90044F29C /* Texture2D.h */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C0DA5851572ED33009C6699 /* lasertowersppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0DA5A31572ED33009C6699 /* Build configuration list for PBXNativeTarget "lasertowersppTest" */;
+			buildPhases = (
+				5C0DA5861572ED33009C6699 /* Sources */,
+				5C0DA59E1572ED33009C6699 /* Frameworks */,
+				5C0DA5A11572ED33009C6699 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lasertowersppTest;
+			productName = lasertowerspp;
+			productReference = 5C0DA5A61572ED33009C6699 /* lasertowerspp copy */;
+			productType = "com.apple.product-type.tool";
+		};
+		5CD742B11561803C00B22914 /* lasertowerspp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD742BC1561803C00B22914 /* Build configuration list for PBXNativeTarget "lasertowerspp" */;
+			buildPhases = (
+				5CD742AE1561803C00B22914 /* Sources */,
+				5CD742AF1561803C00B22914 /* Frameworks */,
+				5CD742B01561803C00B22914 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lasertowerspp;
+			productName = lasertowerspp;
+			productReference = 5CD742B21561803C00B22914 /* lasertowerspp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD742A91561803C00B22914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eduard Feicho";
+			};
+			buildConfigurationList = 5CD742AC1561803C00B22914 /* Build configuration list for PBXProject "lasertowerspp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CD742A71561803C00B22914;
+			productRefGroup = 5CD742B31561803C00B22914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD742B11561803C00B22914 /* lasertowerspp */,
+				5C0DA5851572ED33009C6699 /* lasertowersppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0DA5861572ED33009C6699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACE4F219D6FF520044F29C /* LevelModel.cpp in Sources */,
+				5CACE51D19D6FFF90044F29C /* Input.cpp in Sources */,
+				5CACE4E519D6FF130044F29C /* GameController.cpp in Sources */,
+				5CACE50419D6FF770044F29C /* Sprite.cpp in Sources */,
+				5CACE4E919D6FF130044F29C /* SpriteFactory.cpp in Sources */,
+				5CACE51B19D6FFF90044F29C /* gl_util.cpp in Sources */,
+				5CACE50219D6FF770044F29C /* LevelView.cpp in Sources */,
+				5CACE52819D700BE0044F29C /* util.cpp in Sources */,
+				5CACE51F19D6FFF90044F29C /* Texture2D.cpp in Sources */,
+				5CACE52319D700170044F29C /* main.cpp in Sources */,
+				5CACE4FE19D6FF770044F29C /* Enemy.cpp in Sources */,
+				5CACE50019D6FF770044F29C /* GameView.cpp in Sources */,
+				5CACE50619D6FF770044F29C /* Tower.cpp in Sources */,
+				5CACE4E719D6FF130044F29C /* GameControllerTemplate.cpp in Sources */,
+				5CACE4E319D6FF130044F29C /* EnemyGenerator.cpp in Sources */,
+				5CF713D219D4DC4000F2403B /* test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD742AE1561803C00B22914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACE51A19D6FFF90044F29C /* gl_util.cpp in Sources */,
+				5CACE4FF19D6FF770044F29C /* GameView.cpp in Sources */,
+				5CACE51E19D6FFF90044F29C /* Texture2D.cpp in Sources */,
+				5CACE50519D6FF770044F29C /* Tower.cpp in Sources */,
+				5CACE4F119D6FF520044F29C /* LevelModel.cpp in Sources */,
+				5CACE50119D6FF770044F29C /* LevelView.cpp in Sources */,
+				5CACE4E819D6FF130044F29C /* SpriteFactory.cpp in Sources */,
+				5CACE52219D700170044F29C /* main.cpp in Sources */,
+				5CACE52719D700BE0044F29C /* util.cpp in Sources */,
+				5CACE4E419D6FF130044F29C /* GameController.cpp in Sources */,
+				5CACE4E619D6FF130044F29C /* GameControllerTemplate.cpp in Sources */,
+				5CACE51C19D6FFF90044F29C /* Input.cpp in Sources */,
+				5CACE4E219D6FF130044F29C /* EnemyGenerator.cpp in Sources */,
+				5CACE4FD19D6FF770044F29C /* Enemy.cpp in Sources */,
+				5CACE50319D6FF770044F29C /* Sprite.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C0DA5A41572ED33009C6699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = "lasertowerspp copy";
+			};
+			name = Debug;
+		};
+		5C0DA5A51572ED33009C6699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = "lasertowerspp copy";
+			};
+			name = Release;
+		};
+		5CD742BA1561803C00B22914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					./src,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_contrib",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_gpu",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_legacy",
+					"-lopencv_ml",
+					"-lopencv_nonfree",
+					"-lopencv_objdetect",
+					"-lopencv_ocl",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videostab",
+					"-lboost_filesystem",
+					"-lboost_system",
+				);
+				SDKROOT = macosx10.9;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		5CD742BB1561803C00B22914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					./src,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_contrib",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_gpu",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_legacy",
+					"-lopencv_ml",
+					"-lopencv_nonfree",
+					"-lopencv_objdetect",
+					"-lopencv_ocl",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videostab",
+					"-lboost_filesystem",
+					"-lboost_system",
+				);
+				SDKROOT = macosx10.9;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		5CD742BD1561803C00B22914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CD742BE1561803C00B22914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C0DA5A31572ED33009C6699 /* Build configuration list for PBXNativeTarget "lasertowersppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0DA5A41572ED33009C6699 /* Debug */,
+				5C0DA5A51572ED33009C6699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD742AC1561803C00B22914 /* Build configuration list for PBXProject "lasertowerspp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD742BA1561803C00B22914 /* Debug */,
+				5CD742BB1561803C00B22914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD742BC1561803C00B22914 /* Build configuration list for PBXNativeTarget "lasertowerspp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD742BD1561803C00B22914 /* Debug */,
+				5CD742BE1561803C00B22914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD742A91561803C00B22914 /* Project object */;
+}
